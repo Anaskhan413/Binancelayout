@@ -1,0 +1,465 @@
+* {
+  margin: 0;
+  padding: 0 ;
+}
+
+#navbarimage {
+  width: 220px;
+  height: 130px;
+
+}
+
+.topleftlogo{
+ width: 100%; 
+ border: 2px solid red;
+}
+
+
+
+
+
+
+
+
+.navbarr {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 19px;
+  position: relative;
+  bottom: 90px;
+  left: 340px;
+
+  width: 50%;
+
+
+}
+
+#USD {
+
+  background-color: yellow;
+  color: black;
+  border: 2px solid orange;
+  border-radius: 3PX;
+  padding-left: 3PX;
+  padding-right: 3px;
+}
+
+#Loginm {
+  color: white;
+  position: relative;
+  left: 129px;
+  top: 2px;
+
+}
+
+#warning {
+  position: relative;
+  left: 149px;
+}
+
+.main {
+
+  padding-left: 230px;
+  font-size: 17px;
+
+  color: rgb(17, 9, 9);
+  background-color: rgb(209, 243, 209);
+  padding-top: 16px;
+  padding-bottom: 7px;
+}
+
+#redem {
+  position: relative;
+  left: 30px;
+
+}
+
+
+/* sectionmainandwithcontectstart */
+
+
+.sectionmain1 {
+  display: flex;
+  position: relative;
+  top: 90px;
+  width: 100%;
+ 
+}
+
+.buyandtrade{
+  width: 37%;
+  position: relative;
+  left: 30px;
+  padding: 90px;
+   
+  font-family: 'Times New Roman', Times, Impact, Haettenschweiler, 'Arial Narrow Bold', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.image1 {
+  width: 50%;
+  position: relative;
+  left: 203px;
+}
+
+@media only screen and (max-width: 408px){
+  .sectionmain1{
+width: 401px;
+height: 300px;
+display: none;
+
+  }
+  
+  
+  .image1{
+
+display: none;
+  }
+
+  #formedia{
+  background-color: rgb(110, 73, 73);
+height: 10px;
+  font-size: 1px;
+  }
+
+  
+  
+  }
+
+
+  #tardebitcoinfree{
+    position: absolute;
+ bottom: -140%;
+ left: 350px;
+ display: flex;
+ gap: 30px;
+
+
+  }
+
+
+  .coinimage{
+width: 50%;
+
+}
+@media only screen and (max-width: 408px){
+  #tardebitcoinfree{
+width: 408px;
+position: relative;
+top: 240px;
+left: 1PX;
+flex-wrap: nowrap;
+flex-direction: column;
+height: 700px;
+  }
+  .coinimage{
+ height: 20px;
+  }
+
+  .contentbitcoinforfree{
+position: relative;
+top: 300px;
+  }
+}
+
+
+
+
+
+
+
+/* *displayflecx4 start */
+
+
+.displayflecx4{
+
+  display: flex;
+  gap: 90px;
+  position: relative;
+  top: 140px;
+  justify-content: center;
+}
+
+/* desktop1 tart */
+
+
+#desktop1{
+
+  border: 3px solid rgb(17, 17, 19);
+position: relative;
+left: 190px;
+top: 190px;
+border-radius: 10px;
+}
+@media only screen and (max-width: 408px){
+  #desktop1{
+    width: 360px;
+    position: relative;
+    left: 20px;
+
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+#table{
+border: 3PX SOLID RED;
+position: relative;
+top: 660PX;
+
+}
+
+@media only screen and (max-width: 408px){
+  .displayflecx4{
+width: 408px;
+border: 3px solid red; 
+flex-direction: column;
+justify-content: center;
+}
+}
+
+
+
+/* *detailscontent start */
+
+
+.detailscontent{
+position: relative;
+top: 700px;
+display: flex;
+gap: 300px;
+font-size: 20px;
+
+}
+
+#maincontent{
+  height: 600px;
+  position: relative;
+  top: 100px;
+  left: 60px;
+
+}
+
+#Explore{
+position: relative;
+top: 740px;
+width: 60%;
+margin: 26px;
+color: rgb(150, 145, 136);
+font-size: 47px;
+}
+
+/* *threeflex start*/
+
+.threeflex{
+
+  position: relative;
+  top: 800px;
+  display: flex;
+  gap: 3px;
+  padding: 5px;
+}
+.flex2{
+position: relative;
+top: 40px;
+left: 56px;
+
+}
+
+/* *threeflex2 start*/
+
+.threeflex2{
+border: 3px solid red;
+display: flex;
+position: relative;
+top: 300px;
+}
+
+
+.explorenow{
+
+  position: relative;
+  top: 870px;
+  left: 40px;
+  padding: 10px 55px;
+
+}
+
+  /*lastmain section start*/
+
+  .lastmain{
+
+    position: relative;
+    top: 1000px;
+    display: flex;
+    gap: 190px;
+  }
+
+  .part1{
+    position: relative;
+    top: 60px;
+    left: 40px;
+
+
+  }
+
+  .rustedcryptoexchange{
+width: 50%;
+
+font-size: 17px;
+position: relative;
+left: 40px;
+
+  }
+  .forpositiontop{
+position: relative;
+top: -90px;
+left: 90px;
+  }
+
+  .rustedimage{
+width: 50%;
+padding-left: 150px;
+
+  }
+
+
+
+  /*allabouttoend start*/
+  .allabouttoend{
+
+    position: relative;
+    top: 1110px;
+    display: flex;
+    gap: 290px;
+  }
+
+  .picture{
+width: 50%;
+position: relative;
+left: 120px;
+
+  }
+
+.alleontent{
+  }
+
+  #scan{
+position: relative;
+top: -120px;
+left: 170px;
+width: 40%;   
+
+  }
+  #ios{
+    position: relative;
+    top: -150px;
+    left: 250px;
+
+  width: 40%;   
+  }
+
+  .allogo{
+display: flex;
+gap: 10px;
+  }
+  .alllog1{
+
+    display: FLEX;
+    gap: 70PX;
+  }
+  .logos2{
+position: relative;
+top: -8px;
+right: 38px;
+  }
+
+  .logos3{
+    position: relative;
+
+    right: 38px;
+    bottom: -2px;
+      }
+
+      /*crypto START*/
+
+      .COLUMNN{
+          position: relative;
+        top: 1400px;
+        display: flex;
+        gap: 300px;
+padding-left: 70px;        
+
+      }
+
+      #colorrr{
+color: orange;
+      }
+      
+
+      .fontsize{
+font-size: 13PX;
+      }
+
+
+      .firstbox{
+position: relative;
+left: 30px;
+      }
+      #heaidng{
+font-size: 25px;
+      }
+
+      .trade{
+position: relative;
+top: 1290px;
+left: 80px;
+width: 70%;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 30px;
+      }
+
+
+      .lastbutton{
+position: relative;
+top: 1500px;
+width: 40%;
+left: 490px;
+      }
+      
+      .FOOTER{
+position: relative;
+top: 1640px;
+display: flex;
+list-style: none;
+gap: 200px;
+font-size: 20px;
+
+
+      }
+
+      .aboutus ul {
+list-style: none;
+position: relative;
+top: 20px;
+color: rgb(120, 182, 182);
+
+      }
+
+      #h1heading{
+margin-left: 27px;
+
+      }
+
+      .community{
+position: relative;
+right: 80px;
+      }
